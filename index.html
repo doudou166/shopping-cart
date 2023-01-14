@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="style sheet" href="css/style.css"></link>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    </link>
     <title>Shopping cart</title>
 </head>
+
 <body>
+    <h1 id="header1">cart</h1>
+    <div class="section1">
+        <img src="resources/t-shirt.avif" height="250px" width="180px" alt="img" style=" border-radius: 20px;">
+        <div class="div1">
+            <p>Relaxed Fit T-shirt</p>
+            <p>$12.99</p>
+            <p>
+                <button onclick="totalClick(1)">+</button>
+                <span id="clickSum">0</span>
+                <button onclick="totalClick(-1)">-</button>
+            </p>
+        </div>
+    </div>
 
+    <div class="section2">
+        <img src="resources/cap.jpg" alt="img" height="250px" width="180px" alt="img" style="border-radius: 20px;">
+        <div class="div2">
+            <p>Nylon Sport Cap</p>
+            <p>$14,99</p>
+            <p>
+                <button onclick="totalClick(1)">+</button>
+                <span id="clickSum">0</span>
+                <button onclick="totalClick(-1)">-</button>
+            </p>
+        </div>
 
+    </div>
+
+    <div class="section3">
+        <img src="resources/sneakers.jpg" alt="img" height="250px" width="180px" alt="img" style="border-radius: 20px;">
+        <div class="div3">
+            <p>Sneakers</p>
+            <p>$34,99</p>
+            <p>
+                <button onclick="totalClick(1)">+</button>
+                <span id="clickSum">0</span>
+                <button onclick="totalClick(-1)">-</button>
+            </p>
+        </div>
+
+    </div>
     <script src="js/script.js"></script>
 </body>
 
